@@ -1,0 +1,13 @@
+[package]
+name = "rust-crate-example"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "main"
+path = "bin/main.rs"
+
+[dependencies]
+num_cpus = "1.17.0"
+serde = "1.0.226"
+toml = "0.8.19"
